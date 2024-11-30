@@ -17,6 +17,12 @@ export default function Login() {
       >
         Sign In with Google
       </button>
+      <button
+      onClick={()=> signIn("facebook")}
+      >
+        Sign In with Facebook
+
+      </button>
     </div>
   );
 }
